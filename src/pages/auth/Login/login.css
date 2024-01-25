@@ -1,0 +1,23 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .login-margin{
+        margin-top: 1rem;
+    }
+
+    .login-register{
+        text-decoration: underline;
+        color: #3880ff;
+    }
+
+    .login-error{
+        color: red;
+        justify-content: start;
+    }
+}
